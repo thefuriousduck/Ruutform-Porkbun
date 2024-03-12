@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <title>RF 6.6</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+
+ </head>
+
+
+
+
+<body>
+
+    
+
+
+    <header>
+      <div id="navbar">
+        <div id="brand"><a href="#Landing"><img src="RF-skew-white.png"></a></div>
+        <nav>
+          <ul> 
+            <li><a href="#Landing">HOME</a></li>
+            <li><a href="#About">ABOUT</a></li>
+            <li><a href="#Info">SERVICES</a></li>
+            <li><a href="#Portfolio">PORTFOLIO</a></li>
+            <li><a href="#Contact">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li><a href="#Landing"><h2>HOME</h1></a></li>
+            <li><a href="#About"><h2>ABOUT</h1></a></li>
+            <li><a href="#Info"><h2>SERVICES</h1></a></li>
+            <li><a href="#Portfolio"><h2>PORTFOLIO</h1></a></li>
+            <li><a href="#Contact"><h2>CONTACT</h1></a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    
+
+    <section id="Landing" class="screen">
+      <img src="chester.jpg" class="rellax background" data-rellax-speed="-10">
+      <div class="text-wrap">
+        <div class="header-text">
+          <div class="header-h1">
+            <h1 data-aos="fade-right">Crafted Comfort</h1>
+            <div class="header">
+              <h1 data-aos="fade-right">For Your&nbsp;</h1>
+              <span data-aos="fade-right" id="typed"></span>
+            </div>
+            <div data-aos="fade-right" class="subtext">
+              <p>Order Custom-Made Upholstery Furniture of Premium Quality</p>
+            </div>
+          </div>
+          <a data-aos="fade-right" href="#Contact" title="button" class="cButton"><i></i>CONTACT</a>
+        </div>
+      </div>
+
+      <div class="scroll-icon" id="animation.container"></div>
+        <script>
+          var animation = bodymovin.loadAnimation({
+            container: document.getElementById('animation.container'),
+            path: 'scroll2.json',
+            render: 'svg',
+            loop: true,
+            autoplay: true,
+            name: 'scroll animation',
+          });
+        </script>
+    </section>
+
+    <section id="About" class="screen">
+      <div class="about-wrap">
+        <div class="about-container">
+          <h2>About Ruutform</h2>
+          <article class="about-text">
+            <h1 data-aos="fade-right" class="header">30+ Years of Experience</h1>
+            <p data-aos="fade-right" class="subtext">A dedicated team of craftsmen committed to merging comfort and art.<br><br>Masters with over 30 years of experience.</p>
+          </article>
+          <article class="about-text">
+            <h1 data-aos="fade-right" class="header">Premium Quality</h1>
+            <p data-aos="fade-right" class="subtext">Premium hardwood frames and top-notch upholstery fabrics for enduring quality.<br><br>Each piece is meticulously handcrafted, ensuring timeless design and durability.</p>
+          </article>
+          <article class="about-text">
+              <h1 data-aos="fade-right" class="header">Collaborate to Design</h1>
+              <p data-aos="fade-right" class="subtext">Choose fabric, color and design to create a one-of-a-kind piece that suits you.<br><br>Craft a personalized masterpiece that captures the essence of your style preferences.</p>
+          </article>
+          <article class="about-text">
+              <h1 data-aos="fade-right" class="header">1 Year Guarantee</h1>
+              <p data-aos="fade-right" class="subtext">We provide a one-year guarantee on all our handcrafted upholstered furniture, ensuring peace of mind and confidence in your investment.</p>
+          </article>
+        </div>
+        <div class="about-image">
+          <img data-aos="zoom-out-right" data-aos-duration="500" class="image-1" src="leather-hands.png">
+          <img data-aos="zoom-out-up" data-aos-duration="500" class="image-2" src="chester-armchair.png">
+          <img data-aos="zoom-out-left" data-aos-duration="500" class="image-3" src="textiles.png">
+      </div>
+      </div>
+    </section>
+    
+    <section id="Info" class="screen">
+      <div class="info-wrap">
+        <div class="info-header">
+          <h2 data-aos="fade-up">Services We Offer</h2>
+        </div>
+        <div class="info-container">
+          <!-- FIRST SLIDE-->
+          <div class="info-flex block">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide a reverse">
+                <img src="service-home.png" data-aos="fade-right" class="icon">
+                <div data-aos="fade-left" class="info-text-block">
+                  <h2>For Your Home</h2>
+                  <p>
+                    Breathe life into your home with our professional upholstery furniture services, personalized to reflect your unique taste and lifestyle.
+                    <br><br>Sofas, armchairs, beds, poufs, cushions, mattresses, dining chairs, etc.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- SECOND SLIDE-->
+        <div class="info-flex block">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide a">
+              <img src="service-business.png" data-aos="fade-left" class="icon">
+              <div data-aos="fade-right" class="info-text-block">
+                <h2>For Your Business</h2>
+                <p>Transform your commercial space with professional upholstery
+                <br><br>Elevate your corporate spaces, cafes, hotels, restaurants, clubs, theaters, etc. through our tailored upholstery solutions</p>
+              </div>
+            </div>
+          </div>        
+        </div>
+        <!-- THIRD SLIDE-->
+        <div class="info-flex block">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide a reverse">
+              <img src="service-custom.png" data-aos="fade-right" class="icon">
+              <div data-aos="fade-left"class="info-text-block">
+                <h2>Custom Solutions</h2>
+                <p>
+                  Collaborate to design and craft unique furniture pieces tailored to your vision
+                  <br><br>Work hand-in-hand with our experts to choose textiles and create individualised solutions
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- FOURTH SLIDE-->
+        <div class="info-flex block">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide a">
+              <img src="service-repair.png" data-aos="fade-left" class="icon">
+              <div data-aos="fade-right" class="info-text-block">
+                <h2>Restoring</h2>
+                <p>
+                  Breathe new life into your cherished furniture
+                  <br><br>Restore the beauty and functionality of your upholstery furniture with our expert repair services, ensuring it looks as good as new.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Portfolio" class="screen">
+      <div class="main">
+        <h1>Gallery</h1>
+        <div class="gallery">
+
+            <div class="image">
+                <img src="blue-armchair.png"/>
+            </div>
+            <div class="image">
+                <img src="purple-booth.png"/>
+            </div>
+            <div class="image">
+                <img src="orange-booth.png"/>
+            </div>
+            <div class="image">
+                <img src="step-sofa.png"/>
+            </div>
+            <div class="image">
+                <img src="blue-booth.png"/>
+            </div>                    
+            <div class="image">
+                <img src="grey-armchair.png"/>
+            </div>                   
+            <div class="image">
+                <img src="orange-bench.png"/>
+            </div>                    
+            <div class="image">
+                <img src="leather-sofa.png"/>
+            </div>                                        
+        </div>
+
+        <div class="popup_image">
+            <span>&times;</span>
+            <img src="blue-armchair.png"/>
+        </div>
+    </div>
+      
+    </section>
+
+    <section id="Contact" class="screen">
+      <div class="contact-wrap">
+
+        <div class="contact-header">
+          <h1 data-aos="fade-right">Contact</h1>
+          <p 
+            data-aos="fade-right" 
+            class="contact-subtext">
+            Ready to explore possibilities?<br>
+            Reach us via Email<br><br>
+            <strong>
+              <a 
+                href="mailto:info@ruutform.com" style="color: rgb(255, 223, 223); font-size: 1.3em;">info@ruutform.com 
+              </a>
+            </strong><br><br><span style="color: rgb(255, 223, 223); font-size: 1.2em;"><strong>Lubja 48a, Pärnu, Estonia</strong></span></p>
+        </div>
+          
+        <div class="contact-container">
+
+          <div class="map-wrap">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16726.70580634194!2d24.48454775951971!3d58.3961277732425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ecfd4649d3bcaf%3A0x8a0ebc0b30b98be3!2sRuutform%20O%C3%9C!5e0!3m2!1sen!2see!4v1687898901596!5m2!1sen!2see" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+
+
+
+
+
+          <form class="container" method="POST" action="https://formspree.io/f/mnqezlod">
+            <label for="name"><h2>Your Name:</h2></label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email"><h2>Your E-mail:</h2></label>
+            <input type="email" id="email" name="email" required>
+          
+            <label for="message"><h2>Ask us anything:</h2></label>
+            <textarea id="message" name="message" style="height:200px" maxlength="3000" required></textarea>
+          
+            <input type="submit" id="submit" value="SEND" class="cButton">
+          </form>
+
+
+
+
+
+
+
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <!--
+        <div class="footer-content">
+        <div>
+          <div>
+            <div id="brand"><a href="#Landing"><img src="RF-skew-white.png"></a></div>
+            <h3>ruutform</h3>
+          </div>
+            <p>Should we aven write anything here, I wonder</p>
+        </div>
+      
+      
+          
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        </ul>
+      </div>
+      -->
+      <div class="footer-bottom">
+          <p> Ruutform 2023 &copy;Copyright. All rights reserved.</p>
+      </div>
+    </footer>
+
+
+    <!-- CDN callouts -->
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <script>
+        // When the user scrolls down 250px from the top of the document, slide down the navbar
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+            document.getElementById("navbar").style.top = "30px";
+          } else {
+            document.getElementById("navbar").style.top = "-78px";
+          }
+        };
+
+        // Navbar hamburger
+        function toggleMobileMenu(menu) {
+          menu.classList.toggle('open');
+        }
+
+        // Swiper.js
+        const swiper2 = new Swiper('.swiper2', {    
+          slidesPerView: "auto",
+          centeredSlides: true,
+          spaceBetween: 40,
+          freeMode: true,
+          parallax: true,
+
+          breakpoints: {
+              '@1.5': {
+                  initialSlide: 1,
+              },
+          }
+        });
+
+
+        var swiper1 = new Swiper(".swiper1", {
+          effect: "flip",
+          grabCursor: true,
+          loop: "true",
+        });
+
+
+        // Rellax
+        var rellax = new Rellax('.rellax');
+
+
+        // Typed.js
+        var typed = new Typed('#typed', {
+          stringsElement: '#typed-strings',
+          strings: [
+            '<h3>Home<h3>', 
+            '<h3>Restaurant<h3>', 
+            '<h3>Hotel<h3>',
+            '<h3>Café<h3>',
+            '<h3>Business<h3>'
+            ],
+          typeSpeed: 15,
+          backSpeed: 15,
+          backDelay: 2500,
+          loop: true,
+          showCursor: false,
+        });
+
+
+        // aos.js Animate on Scroll
+        AOS.init();
+      
+
+        // Gallery
+        document.querySelectorAll('.gallery img').forEach(image =>{
+            image.onclick = () =>{
+                document.querySelector('.popup_image').style.display = 'block';
+                document.querySelector('.popup_image img').src = image.getAttribute('src');
+            }
+        });
+
+        document.querySelector('.popup_image').onclick = () =>{
+            document.querySelector('.popup_image').style.display = 'none';
+        }
+
+    </script>
+
+
+
+</body>
+</html>
